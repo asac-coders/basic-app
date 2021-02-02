@@ -12,10 +12,27 @@ export default function Home() {
       </div>
 
 
+
+    <div className={styles.hello}>
+      <h1>Welcome to our App</h1>
+      <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
+        <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
+        <Link href='/login'>
+            <a>login</a>
+        </Link>
+     
+    </div>
+    </body>
+
     <div className={styles.students}>
       <h1 className={styles.font}>Our Creative Students</h1>
       
 </div>
+
 
     </body>
    
