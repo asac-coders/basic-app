@@ -1,11 +1,9 @@
-
 .hello {
   font: 15px Helvetica, Arial, sans-serif;
   /* background-image: url("back.png"); */
   /* padding: 100px; */
   text-align: center;
   transition: 100ms ease-in background;
-
 
 /******************************************* portfolios part in home page ****************************************************/
 /* @charset "UTF-8"; */
@@ -262,7 +260,9 @@
 	font-weight: 300;
 	font-size: 14px;
 	letter-spacing: 0.05em;
-	margin-top: -10px;
+  margin-top: -10px;
+  overflow-y: scroll;
+  max-height: 50px;
 }
 
  /* USER INFO ------------------------ */
@@ -289,7 +289,6 @@
 
 .user .user_name {
 	font-weight: 500;
-
 }
 
 /* ---- List View ---- */
@@ -660,7 +659,6 @@ links.active {
   }
   
 
-
 .main{
   background-image: url("bG.gif");
   height: 700px;
@@ -683,7 +681,6 @@ links.active {
   text-align: center;
   padding-top: 20px;
 }
-
 
   .footer__addr {
     flex: 1 0px;
