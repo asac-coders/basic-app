@@ -13,7 +13,7 @@
 }
 
 .body {
-	background: #fff;
+	background: rgb(102, 100, 100);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -228,12 +228,12 @@
 	vertical-align: super;
 }
 
-.c_num {
+ .c_num {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 500;
 	vertical-align: super;
-}
+} 
 
 .c_content {
 	margin-top: -10px;
@@ -658,4 +658,196 @@ links.active {
   .footer__nav {
     flex: 2 0px;
   }
+}
+
+/* ////////////////////////////////////about/////////////////////////// */
+
+.container {
+	position: relative;
+	margin: auto;
+	width: 800px;
+	height: 400px;
+	box-shadow: 5px 5px 15px rgba( .5);
+	border-radius: 10px;
+	top: 75px;
+
+  }
+  .aboutBoutton{
+	position: relative;
+  }
+  .pabout {
+	font-size: 0.6em;
+	letter-spacing: 1px;
+  }
+  
+  .h2about {
+	font-size: 1.2em;
+	margin-top: -5px;
+  }
+  
+  .h1about{
+	margin-top: 24px;
+  }
+  
+  .imageAbout {
+	width:10px;
+	height: 10px;
+  }
+  
+  
+  .about {
+	width: 40%;
+	height: 100%;
+	top: 10%;
+	left: 60%;
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	top: 10%;
+	left: 60%;
+  }
+
+
+/* 
+  .img-resize {
+	width: 10em;
+  }
+   */
+  .style {
+	font-size: 20px;
+  }
+  
+  .jumboStyle {
+	background-image: linear-gradient(-225deg, #2cd8d5ef 0%, #6b8dd68c 48%, #8f37d786 100%);
+	width:900px;
+	margin: auto;
+
+
+  }
+  
+  .bodyTitleStyle {
+	font-size: 25px;
+	font-weight: 800;
+  }
+
+
+  /* ////////////////////////////////  project//////////////////////////// */
+
+ 
+
+  .studentProjectList {
+	  display: flex;
+	  padding: 3rem;
+  }
+  
+  .studentProject {
+	  display: flex;
+	  position: relative;
+	  flex-direction: column;
+	  height: 350px;
+	  width: 400px;
+	  min-width: 250px;
+	  padding: 1.5rem;
+  }
+  .studentProject {
+	  border-radius: 16px;
+	  background:#432e45;
+	  box-shadow: -1rem 0 3rem rgb(43, 42, 42);
+	  transition: .2s;
+  }
+  
+  .studentProject:hover {
+	  transform: translateY(-1rem);
+	  z-index: 1;
+  }
+  
+  .studentProject:hover ~.student-project {
+	  transform: translateX(130px);
+  }
+  
+  
+  .studentProject:not(:first-child) {
+	  margin-left: auto;
+  }
+  .projectStudent {
+	  position: relative;
+	  display: grid;
+	  grid-template-columns: 75px 1fr;
+	  align-items: center;
+	  margin: 3rem 0 0;
+	  color: linear-gradient(90deg,#ff8a00,#e52e71);
+  }
+  
+  .studetnProjectH2 {
+	  margin-bottom: auto;
+	  color: linear-gradient(90deg,#ff8a00,#e52e71);
+  }
+  
+  .studetnProjectH2 {
+	  font-size: 20px;
+	  margin: .25rem 0 auto;
+	  cursor: pointer;
+	  color: linear-gradient(90deg,#ff8a00,#e52e71);
+	  background: linear-gradient(90deg,#ff8a00,#e52e71);
+	  
+	  text-shadow: none;
+	  background-clip: text;
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+  }
+  
+  .studetnProjectH2:hover {
+	  background: linear-gradient(90deg,#ff8a00,#e52e71);
+	  
+	  text-shadow: none;
+	  background-clip: text;
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+  }
+  .studentAvatar{
+	  display:block;
+  }
+
+
+
+/* //////////////////////////////skillsIco//////////////////// ///////// */
+
+  .focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
+
+.cardtitle {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.fontdetails {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+}
+
+.fontdetailsb {
+  font-size: 3em;
+  font-weight: 500;
+  color: rgb(253, 253, 253);
+}
+/* //////////////////skills_icones////////////////// */
+
+.imgSkills{
+	width: 50px;
+	height: 50px;
+}
+.skills{
+	/* margin: auto; */
+	justify-content: center;
+	margin-bottom: 400px;
 }
