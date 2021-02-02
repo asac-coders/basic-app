@@ -15,11 +15,13 @@ export default function Home() {
       <Link href='/portfolio'>
             <a>About</a>
         </Link>
+        <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
      
     </div>
     </body>
    
   )
 }
-
 
