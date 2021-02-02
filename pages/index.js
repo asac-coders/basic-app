@@ -17,43 +17,6 @@ export default function Home() {
       
 </div>
 
-   
-{/* <section className={styles.main_container}>
-
-
-<section className={styles.row} className={styles.rowOne}>
-  <div className={styles.box_container}>
-    <div className={styles.box}className={styles.box_one}>
-        <div className={styles.front}><span>FRONT</span></div>
-        <div className={styles.back}>BACK</div>
-    </div> 
-  </div>
-  <div className={styles.box_container}>
-    <div className={styles.box}className={styles.box_two}>
-        <div className={styles.front}><span>FRONT</span></div>
-        <div className={styles.back}>BACK</div>
-    </div> 
-  </div>
-  <div className={styles.box_container}>
-    <div className={styles.box}className={styles.box_three}>
-        <div className={styles.front}><span>FRONT</span></div>
-        <div className={styles.back}>BACK</div>
-    </div> 
-  </div>
-  <div className={styles.box_container}>
-    <div className={styles.box}className={styles.box_four}>
-        <div className={styles.front}><span  >FRONT</span></div>
-        <div className={styles.back}>BACK</div>
-    </div> 
-  </div>
-
-  
-</section>
-</section> */}
-  
-
-		
-
     </body>
    
    )
