@@ -1,3 +1,9 @@
+.hello {
+  font: 15px Helvetica, Arial, sans-serif;
+  /* background-image: url("back.png"); */
+  /* padding: 100px; */
+  text-align: center;
+  transition: 100ms ease-in background;
 
 /******************************************* portfolios part in home page ****************************************************/
 /* @charset "UTF-8"; */
@@ -254,7 +260,9 @@
 	font-weight: 300;
 	font-size: 14px;
 	letter-spacing: 0.05em;
-	margin-top: -10px;
+  margin-top: -10px;
+  overflow-y: scroll;
+  max-height: 50px;
 }
 
  /* USER INFO ------------------------ */
@@ -651,6 +659,29 @@ links.active {
   }
   
 
+.main{
+  background-image: url("bG.gif");
+  height: 700px;
+  
+}
+
+.body{
+  margin-left: 3%;
+  margin-right: 3%;
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/creative_room/v796-nunny-02c_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e7b4f945ca9a02ab4435b35d342b570a");
+}
+
+.students{
+  background-color: rgba(218, 214, 214, 0.678);
+  height: 220px;
+
+}
+
+.font{
+  text-align: center;
+  padding-top: 20px;
+}
+
   .footer__addr {
     flex: 1 0px;
   }
@@ -659,6 +690,7 @@ links.active {
     flex: 2 0px;
   }
 }
+
 
 /* -----------------------------------------Cards----------------------------------------------------------------- */
 
@@ -751,3 +783,4 @@ links.active {
   display: block;
   margin-top: 5px;
    } 
+
