@@ -12,43 +12,21 @@ export default function Home() {
       </div>
 
 
-    <div className={styles.students}>
-      <h1 className={styles.font}>Our Creative Students</h1>
-      <div class="imgsdiv" id="javade">
-            <h2 class="Names"> <a href="">test</a> </h2>
-            <Image
-        src="/dundun.jpg"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-            <p>any thing</p>
-        </div>
-      
+    <div className={styles.hello}>
+      <h1>Welcome to our App</h1>
+      <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
+        <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
 
-        <div>
-          
-        </div>
-
-    
-      <div class="imgsdiv" id="javade">
-            <h2 class="Names"> <a href="">test</a> </h2>
-            <Image
-        src="/dundun.jpg"
-        alt="Picture of the author"
-        width={100}
-        height={100}
-      />
-            <p>any thing</p>
-        </div>
-      
-    </div>
-    
 
    
   
     </body>
    
+
    )
   }
   
