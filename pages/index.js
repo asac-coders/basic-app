@@ -18,6 +18,9 @@ export default function Home() {
         <Link href='/portfolio'>
             <a>About</a>
         </Link>
+        <Link href='/login'>
+            <a>login</a>
+        </Link>
      
     </div>
     </body>
