@@ -4,7 +4,6 @@
   /* padding: 100px; */
   text-align: center;
   transition: 100ms ease-in background;
-  }
 
 /******************************************* portfolios part in home page ****************************************************/
 /* @charset "UTF-8"; */
@@ -692,88 +691,3 @@ links.active {
   }
 }
 
-/* caaaaaardsss */
-/* 
-.row {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-  border-bottom: 1px solid #fff;
-	margin-bottom: 100px;
-	min-height: 450px;
-	padding: 0 20px;
-	background-color: #484848;
-}
-
-
-/** TRANSFORMS **/
-/* .box_container {
-	position: relative;
-	width: 300px;
-	height: 300px;
-	perspective: 1000px;
-	align-self: center;
-}
-
-.box {
-	cursor: pointer;
-	font-size: 180%;
-	width: 100%;
-	height: 100%;
-	transform-style: preserve-3d;
-	transition: all 1.0s cubic-bezier(.32,.12,.05,.94);
-	box-shadow: -5px 5px 10px #212121;
-}
-
-.front, .back { border-radius: 5px; background-size: cover; background-repeat: no-repeat; }
-
-.front {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: #fff;
-	line-height: 300px;
-	z-index: 2;
-	backface-visibility: hidden;
-	transform: rotateY(0deg);
-}
-.front span { 
-    background-color: rgba(0,0,0,.7); 
-    border-radius: 5px; 
-    border: 1px solid #fff; 
-    padding: 5px 20px; }
-
-   
-
-.back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	color: #fff;
-	line-height: 300px;
-	color: white;
-	text-align: center;
-	transform: rotateY(180deg);
-}
-
-
-	
-		.rowOne .box_one .front { background-image: url('https://source.unsplash.com/MWFWz4DWwKI'); }
-		.rowOne .box_one .back { background-color: #000; }
-	
-
-
-		.rowOne .box_two .front { background-image: url('https://source.unsplash.com/3kzlCL3rj8A'); }
-		.rowOne .box_two .back { background-color: #000; }
-
-
-	.rowOne .box_three .front { background-image: url('https://source.unsplash.com/NFs6dRTBgaM'); }
-  .rowOne .box_three .back { background-color: #000; }
-	
-
-	.rowOne .box_four .front { background-image: url('https://source.unsplash.com/vVLrfAzmWYw'); }
-	.rowOne .box_four	.back { background-color: #000; } */ 
-
-  
