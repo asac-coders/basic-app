@@ -1,11 +1,13 @@
 import styles from '../styles.module.css'
 import Image from 'next/image'
+
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <body className={styles.body}>
       <div className={styles.main}>
+        {/* <h1>heeyy</h1> */}
       
       </div>
 
@@ -18,10 +20,14 @@ export default function Home() {
         <Link href='/portfolio'>
             <a>About</a>
         </Link>
-     
-    </div>
+
+
+   
+  
     </body>
    
-  )
-}
 
+   )
+  }
+  
+  
