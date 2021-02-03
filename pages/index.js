@@ -119,6 +119,22 @@ export default function Home() {
          */}
       </div>
 
+
+    <div className={styles.hello}>
+      <h1>Welcome to our App</h1>
+      <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
+        <Link href='/portfolio'>
+            <a>About</a>
+        </Link>
+        <Link href='/details'>
+            <a>details</a>
+        </Link>
+     
+    </div>
+
+
     </body>
 
 
