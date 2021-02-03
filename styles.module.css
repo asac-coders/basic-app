@@ -1,4 +1,5 @@
 
+
 /******************************************* portfolios part in home page ****************************************************/
 /* @charset "UTF-8"; */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
@@ -442,6 +443,16 @@
     }
   }
 
+.hello {
+  font: 15px Helvetica, Arial, sans-serif;
+  /* background-image: url("back.png"); */
+  /* padding: 100px; */
+  text-align: center;
+  transition: 100ms ease-in background;
+}
+
+
+
   /*********************************** Header file*************************************/
 /* 
   * {
@@ -651,6 +662,36 @@ links.active {
   }
   
 
+.main{
+  background-image: url("bG.gif");
+  height: 700px;
+  border-radius: 10px;
+  
+}
+
+.body{
+  margin-left: 3%;
+  margin-right: 3%;
+ 
+  /* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/creative_room/v796-nunny-02c_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e7b4f945ca9a02ab4435b35d342b570a"); */
+  z-index: -10;
+  background-color: whitesmoke;
+}
+
+.students{
+background-color: #aadde0;
+border-radius: 10px;
+
+}
+
+.font {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(17, 14, 61);
+  font-size: 40px;
+}
+
   .footer__addr {
     flex: 1 0px;
   }
@@ -659,6 +700,7 @@ links.active {
     flex: 2 0px;
   }
 }
+
 
 /* ////////////////////////////////////about/////////////////////////// */
 
@@ -850,4 +892,121 @@ links.active {
 	/* margin: auto; */
 	justify-content: center;
 	margin-bottom: 400px;
+
+
+/* -----------------------------------------Cards----------------------------------------------------------------- */
+
+.box{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 3fr));
+    grid-gap: 15px;
+	margin: 0 auto;
+	margin-top: 3%;
+  }
+ 
+  .card{
+    z-index: 10;
+    position: relative;
+    width: 220px;
+    height: 360px;
+    background: whitesmoke;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+  }
+  .card:before,
+  .card:after
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background: whitesmoke;
+    transition: 0.5s;
+    z-index:-1;
+  }
+  .card:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .card:hover:after{
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .card .imgBx{
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+  }
+  
+  .card:hover .imgBx
+  {
+    bottom: 80px;
+  }
+
+  .card .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .card .details{
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      height: 60px;
+      text-align: center;
+  }
+
+  .card .details h2{
+   margin: 0;
+   padding: 0;
+   font-weight: 600;
+   font-size: 20px;
+   color: #777;
+   text-transform: uppercase;
+  } 
+
+  .card .details h2 span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+   } 
+
+/* _____________________________ Students Div_____________________________________ */
+.seeMore{
+  margin-left: 45%;
+  margin-top:55px;
+  font-size: 30px;
+  text-decoration:none;
+  background-color: whitesmoke;
+}
+.vision{
+  background-image: url("vision.gif");
+  height: 700px;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.mission{
+  background-image: url("mission.gif");
+  height: 700px;
+  border-radius: 10px;
+  margin-top: 2%;
+
 }
