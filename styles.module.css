@@ -497,7 +497,9 @@
 	left: 60%;
   }
 
-
+  .detailsPageDiv{
+    background-color: whitesmoke;
+  }
 /* 
   .img-resize {
 	width: 10em;
@@ -508,10 +510,31 @@
   }
   
   .jumboStyle {
-	background-image: linear-gradient(-225deg, #2cd8d5ef 0%, #6b8dd68c 48%, #8f37d786 100%);
-	width:900px;
-	margin: auto;
-
+	background-image:linear-gradient(
+    291deg
+    , rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(
+    126deg
+    , rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(
+    59deg
+    , rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(
+    368deg
+    , rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(
+    77deg
+    , rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(
+    83deg
+    , rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(
+    108deg
+    , rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(
+    272deg
+    , rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(
+    148deg
+    , rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(
+    90deg
+    ,#030b4eea ,#050E86);
+	width: 85%;
+  margin: auto;
+  height: 500px;
+ align-items: center;
 
   }
   
@@ -519,7 +542,13 @@
 	font-size: 25px;
 	font-weight: 800;
   }
-
+.aboutmeImage{
+ width: 400px;
+  height: 300px;
+  position: relative;
+  bottom: 66px;
+  left: 30px;
+}
 
   /* ////////////////////////////////  project//////////////////////////// */
 
@@ -604,6 +633,7 @@
 
   .focus {
   transition: transform 0.3s;
+  margin-bottom: 900px;
 }
 
 .focus:hover {
@@ -628,7 +658,8 @@
 .fontdetailsb {
   font-size: 3em;
   font-weight: 500;
-  color: rgb(253, 253, 253);
+  color:#231d5af8;
+  margin-left:40%;
 }
 /* //////////////////skills_icones////////////////// */
 
@@ -639,10 +670,13 @@
 .skills{
 	/* margin: auto; */
 	justify-content: center;
-  margin-bottom: 400px;
-  margin-right: 15px;
+  margin:auto;
 
 }
+.cardSkills{
+  width: 500px;
+
+  }
 /* -----------------------------------------Cards----------------------------------------------------------------- */
 
 .box{

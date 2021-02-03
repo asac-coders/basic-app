@@ -11,7 +11,7 @@ import Image from 'next/image'
 function Details() {
   return (
 
-<div>
+<div className = {styles.detailsPageDiv}>
 <Header/>
 <About/>
 
@@ -21,8 +21,9 @@ function Details() {
 <br></br>
 
 <SkillsIco/>
-{/* <Footer/> */}
+<Footer/>
 </div>
+
 
   );
 }
