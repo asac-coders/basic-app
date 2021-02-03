@@ -14,7 +14,8 @@ export default function Home() {
       <div>
       <img  src="/about.gif"></img>
       </div>
-    </div>
+
+
 
 <Footer className={styles.Footer}></Footer>
     
