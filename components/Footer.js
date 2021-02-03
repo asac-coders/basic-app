@@ -68,11 +68,6 @@ export default() => (
                   </li>
                 </ul>
               </li>
-                  
-                  
-          
-          
-             
             
           </footer>
     )
