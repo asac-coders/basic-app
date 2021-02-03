@@ -11,12 +11,9 @@
     "next": "latest",
     "react": "^16.7.0",
     "react-bootstrap": "^1.4.3",
-
     "react-dom": "^16.7.0",
+    
     "react-tilt": "^0.1.4"
-
-    "react-dom": "^16.7.0"
-
   },
   "license": "MIT"
 }

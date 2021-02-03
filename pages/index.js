@@ -1,165 +1,103 @@
 import styles from '../styles.module.css'
 import Image from 'next/image'
-
+import Nav from '../components/Header'
 import Link from 'next/link'
 import Footer from '../components/Footer'
-import Header from'../components/Header'
+import Header from '../components/Header'
 
-export default function Home() {
-  return (
-    <>
-    < Header />
-    <body className={styles.body}>
+export default function Home(props) {
+    return (
+        <body className={styles.body}>
+            < Header />
 
-      
-    <div className={styles.about}>
-      <div>
-      <img  src="/about.gif"></img>
-      </div>
+            <div className={styles.main}>
 
 
-
-<Footer className={styles.Footer}></Footer>
-    
-    </body>
-   </>
-
-      <div className={styles.main}>
-        {/* <h1>heeyy</h1> */}
-
-      </div>
-
-
-    
-      <div className={styles.students}>
-        <h1 className={styles.font}>Our Creative Students</h1>
-
-      <div className={styles.box}>
-            <link></link>
-            <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
                 </div>
-                    <div className={styles.details}>
-                        <h2>Dundooneh<br/><span>Developer</span></h2>
-                    </div>
-            </div>
 
-                    <div className={styles.card}>
-                        <div className={styles.imgBx}>
-                            <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
-                        </div>
-                            <div className={styles.details}>
-                                <h2>ayooosheh<br/><span>Developer</span></h2>
-                        </div>
-                    </div>
-                    <div className={styles.card}>
-                        <div className={styles.imgBx}>
-                            <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
-                        </div>
-                            <div className={styles.details}>
-                                <h2>ayooosheh<br/><span>Developer</span></h2>
-                        </div>
-                    </div>
 
-                    <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
-                </div>
-                    <div className={styles.details}>
-                        <h2>Dundooneh<br/><span>Developer</span></h2>
-                    </div>
-            </div>
 
-                    </div>
+                <div className={styles.students}>
+                    <h1 className={styles.font}>Our Creative Students</h1>
 
                     <div className={styles.box}>
-            <link></link>
-            {/* <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
-                </div>
-                    <div className={styles.details}>
-                        <h2>Dundooneh<br/><span>Developer</span></h2>
-                    </div>
-            </div> */}
-
-                    {/* <div className={styles.card}>
-                        <div className={styles.imgBx}>
-                            <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
-                        </div>
+                        <link></link>
+                        <div className={styles.card}>
+                            <div className={styles.imgBx}>
+                                <img src={props.data[0].image} alt="images"></img>
+                            </div>
                             <div className={styles.details}>
-                                <h2>ayooosheh<br/><span>Developer</span></h2>
+                                <h2>{props.data[0].first_name} {props.data[0].Last_name}<br /><span>Developer</span></h2>
+                            </div>
                         </div>
+
+                        <div className={styles.card}>
+                            <div className={styles.imgBx}>
+                                <img src={props.data[1].image} alt="images"></img>
+                            </div>
+                            <div className={styles.details}>
+                                <h2>{props.data[1].first_name} {props.data[1].Last_name}<br /><span>Developer</span></h2>
+                            </div>
+                        </div>
+                        <div className={styles.card}>
+                            <div className={styles.imgBx}>
+                                <img src={props.data[2].image} alt="images"></img>
+                            </div>
+                            <div className={styles.details}>
+                                <h2>{props.data[2].first_name} {props.data[2].Last_name}<br /><span>Developer</span></h2>
+                            </div>
+                        </div>
+
+                        <div className={styles.card}>
+                            <div className={styles.imgBx}>
+                                <img src={props.data[3].image} alt="images"></img>
+                            </div>
+                            <div className={styles.details}>
+                                <h2>{props.data[3].first_name} {props.data[3].Last_name}<br /><span>Developer</span></h2>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
+                <br></br>
+                <a className={styles.seeMore} href="/cards">See More</a>
+                <br></br>
+
                 </div>
-                    <div className={styles.details}>
-                        <h2>Dundooneh<br/><span>Developer</span></h2>
-                    </div>
-                    
-                    
+
+
+
+
+            
+
+
+
+            <div className={styles.vision}>
+
             </div>
-            <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src="https://ca.slack-edge.com/TNGRRLUMA-U0193DSSLUW-0508d9903d13-512" alt="images"></img>
+
+            <div className={styles.mission}>
+
+            </div>
+            <div className={styles.aboutUs}>
+                <div>
+                    <img src="/about.gif"></img>
                 </div>
-                    <div className={styles.details}>
-                        <h2>Dundooneh<br/><span>Developer</span></h2>
-                    </div>
-                    
-                    
-            </div> */}
-
-                    </div>
-
-             
-
-
-<br></br>
-<a className={styles.seeMore} href="#">See More</a>
-<br></br>
-
-      </div>
-
-
-      
-      <div className={styles.vision}>
-        {/* <h2>heloo</h2>
-         */}
-      </div>
-
-      <div className={styles.mission}>
-        {/* <h2>heloo</h2>
-         */}
-      </div>
-
-
-    <div className={styles.hello}>
-      <h1>Welcome to our App</h1>
-      <Link href='/portfolio'>
-            <a>About</a>
-        </Link>
-        <Link href='/portfolio'>
-            <a>About</a>
-        </Link>
-        <Link href='/details'>
-            <a>details</a>
-        </Link>
-     
-    </div>
-
-
-    </body>
+            </div>
+            <Footer className={styles.Footer}></Footer>
+        </body>
 
 
 
 
 
-
-  )
+    )
 }
 
+
+export async function getServerSideProps() {
+    const res = await fetch(`http://localhost:8000/blog/`)
+    const data = await res.json()
+
+    return { props: { data: data } }
+}

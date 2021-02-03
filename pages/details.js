@@ -11,7 +11,7 @@ import Image from 'next/image'
 function Details() {
   return (
 
-<body>
+<div>
 <Header/>
 <About/>
 
@@ -22,7 +22,7 @@ function Details() {
 
 <SkillsIco/>
 {/* <Footer/> */}
-</body>
+</div>
 
   );
 }
