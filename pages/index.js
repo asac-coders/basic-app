@@ -1,11 +1,12 @@
 import styles from '../styles.module.css'
 import Image from 'next/image'
-
+import Nav from '../components/Header'
 import Link from 'next/link'
 
 export default function Home(props) {
     return (
         <body className={styles.body}>
+            <Nav />
             <div className={styles.main}>
                 {/* <h1>heeyy</h1> */}
 
