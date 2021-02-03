@@ -1,5 +1,4 @@
 
-// import styles from  './styles.portfolio.css'
 import Footer from '../components/Footer'
 import styles from '../styles.module.css'
 import Image from 'next/image'
@@ -8,16 +7,7 @@ import Header from '../components/Header'
 
 function Portfolio() {
   return (
-    // <body className={styles.body2}>
-    //   <h1>My Portfolio</h1>
-    //   <Image
-    //     src="/ltuc.png"
-    //     alt="Portfolio image"
-    //     width={500}
-    //     height={500}
-    //   />
-    //   <p>Welcome to my Portfolio page !</p>
-    // </body>
+  
 
 <body className={styles.body}>
   <Header></Header>
@@ -35,12 +25,7 @@ function Portfolio() {
 
       <div className={styles.cardview}>
           <div className={styles.bg}>
-          {/* <Image
-        src="/person.png"
-        alt="Portfolio image"
-        width={500}
-        height={500}
-      /> */}
+     
           </div>
         <div className={styles.container}>
           <a href='#'><div className={styles.tag_name} className={styles.red} ></div></a>
@@ -316,5 +301,12 @@ function Portfolio() {
 
   )
 }
+export async function getServerSideProps(){
+  const res = await fetch(`https://book-api-using-elephant.herokuapp.com/api/v2/book`)
+  const data = await res.json();
+  console.log(data)
+  return {props:{data:data}}
+}
 
 export default Portfolio
+
