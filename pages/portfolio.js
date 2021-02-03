@@ -1,5 +1,6 @@
 
 import Footer from '../components/Footer'
+import About from '../components/about'
 import styles from '../styles.module.css'
 import Image from 'next/image'
 import Header from '../components/Header'
@@ -11,8 +12,10 @@ function Portfolio() {
 
 <body className={styles.body}>
   <Header></Header>
+
+
+  <About/>
     <div className={styles.fullwidth}>
-    
     <div className={styles.cf}>
       <div className={styles.Switchcard}>
         <div className={styles.Toggle}></div>
@@ -296,6 +299,9 @@ function Portfolio() {
     </div> 
 </div>
 <br/>
+  
+  
+
 <Footer></Footer>
 </body>
 

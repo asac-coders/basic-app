@@ -1,30 +1,101 @@
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import React, {useState} from 'react';
+import Router from 'next/router';
+import styles from '../styles.module.css'
 
-export default function Login(){
-    return(
-        <div>
-            <Form>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    <br/>
-                    <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                    </Form.Text>
-                </Form.Group>
 
-                <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
-        </div>
-    )
-}
+const Login = () => {
+  const [loginError, setLoginError] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    //call api
+    fetch('/api/auth', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    })
+      .then((r) => {
+          console.log(r)
+        return r.json();
+      })
+      .then((data) => {
+        if (data && data.error) {
+          setLoginError(data.message);
+        }
+        if (data && data.token) {
+          //set cookie
+          cookie.set('token', data.token, {expires: 2});
+          Router.push('/');
+        }
+      });
+  }
+  return (
+      <div className={styles.loginDiv}>
+
+      
+    <form onSubmit={handleSubmit}>
+        <fieldset  className={styles.fieldSet}>
+      <p className={styles.login}>Login</p>
+      <label className={styles.nameLable}>
+          Enter Your Username
+      </label>
+      <input className={styles.username}
+        name="username"
+        type="text"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <br>
+      </br>
+      <br>
+      </br>
+       <label className={styles.nameLable2}>
+          Enter Your password
+      </label>
+      <input
+        name="password"
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      
+      <br>
+      </br>
+      <br>
+      </br>
+      <input  type="submit" value="Submit" className={styles.button} />
+      {loginError && <p style={{color: 'red'}}>{loginError}</p>}
+      </fieldset>
+    </form>
+    </div>
+  );
+};
+
+export default Login;
+
+// <Form>
+//   <Form.Group as={Row} controlId="formPlaintextEmail">
+//     <Form.Label column sm="2">
+//       Email
+//     </Form.Label>
+//     <Col sm="10">
+//       <Form.Control plaintext readOnly defaultValue="email@example.com" />
+//     </Col>
+//   </Form.Group>
+
+//   <Form.Group as={Row} controlId="formPlaintextPassword">
+//     <Form.Label column sm="2">
+//       Password
+//     </Form.Label>
+//     <Col sm="10">
+//       <Form.Control type="password" placeholder="Password" />
+//     </Col>
+//   </Form.Group>
+// </Form>
