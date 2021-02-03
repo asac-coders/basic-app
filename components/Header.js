@@ -19,9 +19,9 @@ export default () => (
             <div className={styles.navlinks}>
 
             <ul>
-                <li><a className={styles.li} href="#">About Us</a></li>
-                <li><a className={styles.li} href="#">Form</a></li>
-                <li><a className={styles.li} href="#">Home</a></li>
+                <li><a className={styles.li} href="/">Home</a></li>
+                <li><a className={styles.li} href="#students">Our Students</a></li>
+                <li><a className={styles.li} href="#footer">Contact us</a></li>
             </ul>
             </div>
         </nav>

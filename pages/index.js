@@ -17,7 +17,7 @@ export default function Home(props) {
 
 
 
-                <div className={styles.students}>
+                <div className={styles.students} id="students">
                     <h1 className={styles.font}>Our Creative Students</h1>
 
                     <div className={styles.box}>
@@ -79,12 +79,9 @@ export default function Home(props) {
             <div className={styles.mission}>
 
             </div>
-            <div className={styles.aboutUs}>
-                <div>
-                    <img src="/about.gif"></img>
-                </div>
-            </div>
+           <div id="footer">
             <Footer className={styles.Footer}></Footer>
+            </div>
         </body>
 
 
