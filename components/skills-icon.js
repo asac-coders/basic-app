@@ -10,12 +10,12 @@ const SkillsIco = () => {
   return (
     <div className="pt-3 pb-3" id="skills" >
       <h1 className={styles.fontdetailsb}>TECH SKILLS</h1>
-      <CardDeck  className = {styles.skills} >
+      <CardDeck  className = {styles.skills} style = {{ margin: "auto"}} >
         <Row className="d-flex justify-content-around" className = {styles.skills}>
           {/* Frontend */}
           <Col md={4}>
             <Card className={styles.focus} > 
-              <Card.Body>
+              <Card.Body className={styles.cardSkills} >
                 {/* Frontend */}
                 <Card.Title className={styles.cardtitle}>Frontend</Card.Title>
                 <hr />
@@ -23,8 +23,30 @@ const SkillsIco = () => {
                
                     <span className="p-2">
                     <img src = "../icones/3.jpg"  className= {styles.imgSkills} />
+
                       <a className="text-dark text-decoration-none" href="#" target="_blank" rel="noopener noreferrer">
                       CSS3
+                      </a>
+                    </span>
+                    <span className="p-2">
+                    <img src = "../icones/html.png"  className= {styles.imgSkills} />
+
+                      <a className="text-dark text-decoration-none" href="#" target="_blank" rel="noopener noreferrer">
+                      html
+                      </a>
+                    </span>
+                    <span className="p-2">
+                    <img src = "../icones/react.png"  className= {styles.imgSkills} />
+
+                      <a className="text-dark text-decoration-none" href="#" target="_blank" rel="noopener noreferrer">
+                      react
+                      </a>
+                    </span>
+                    <span className="p-2">
+                    <img src = "../icones/javascript.png"  className= {styles.imgSkills} />
+
+                      <a className="text-dark text-decoration-none" href="#" target="_blank" rel="noopener noreferrer">
+                      Javascript
                       </a>
                     </span>
                 </Card.Text>
@@ -46,10 +68,11 @@ const SkillsIco = () => {
                          heroku
                       </a>
                     </span>
+  
                     <span className="p-2">
-                    <img src = "../icones/html.png"  className= {styles.imgSkills} />
+                    <img src = "../icones/node.png"  className= {styles.imgSkills} />
                       <a className="text-dark text-decoration-none" href="#"target="_blank" rel="noopener noreferrer">
-                         html
+                         Node
                       </a>
                     </span>
                 </Card.Text>
