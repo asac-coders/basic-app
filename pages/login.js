@@ -1,30 +1,60 @@
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+import React, {useState} from 'react';
+import Router from 'next/router';
+import styles from '../styles.module.css'
 
-export default function Login(){
-    return(
-        <div>
-            <Form>
-                <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
-                    <br/>
-                    <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                    </Form.Text>
-                </Form.Group>
 
-                <Form.Group controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
-            </Form>
-        </div>
-    )
-}
+const Login = () => {
+  const [loginError, setLoginError] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    //call api
+    fetch('/api/auth', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        password,
+      }),
+    })
+      .then((r) => {
+          console.log(r)
+        return r.json();
+      })
+      .then((data) => {
+        if (data && data.error) {
+          setLoginError(data.message);
+        }
+        if (data && data.token) {
+          //set cookie
+          cookie.set('token', data.token, {expires: 2});
+          Router.push('/');
+        }
+      });
+  }
+  return (
+    <form onSubmit={handleSubmit}>
+      <p className={styles.login}>Login</p>
+      <input
+        name="email"
+        type="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <input
+        name="password"
+        type="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <input type="submit" value="Submit" />
+      {loginError && <p style={{color: 'red'}}>{loginError}</p>}
+    </form>
+  );
+};
+
+export default Login;
