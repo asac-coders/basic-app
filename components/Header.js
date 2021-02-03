@@ -2,33 +2,31 @@ import Link from 'next/link'
 // import styles from 'styles.header.css'
 import Image from 'next/image'
 import styles from '../styles.module.css'
+import { render } from 'react-dom'
+
+export default () => (
 
 
-export default() => (
+    <header className={styles.header11} >
+        <nav className={styles.nav22}>
+            <div className={styles.logo}>
+                ASAC BLOG
+                <span className={styles.logoBlog}>
+                  {/* BLOG */}
+                </span>
+            </div>
 
+            <div className={styles.navlinks}>
 
-<header>
-        <nav className={styles.navbar}>
-            <div className={styles.logo}>        
-        <Image
-        src="/ltuc.png"
-        alt="Portfolio image"
-        width={90}
-        height={90}
-      /></div>
-            <a className={styles.togglebtn} href="#"><span className={styles.line}></span>
-                <span className={styles.line}></span>
-                <span className={styles.line}></span></a>
-            <div className={styles.navbar_links}>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <ul>
+                <li><a className={styles.li} href="#">About Us</a></li>
+                <li><a className={styles.li} href="#">Form</a></li>
+                <li><a className={styles.li} href="#">Home</a></li>
+            </ul>
             </div>
         </nav>
-</header>
+    </header>
 
 
 )
+
