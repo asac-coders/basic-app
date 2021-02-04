@@ -17,7 +17,7 @@ export default() => (
       ·
       
       
-      <a href="/login">Sign-In</a>
+      <a href="/login">Log-In</a>
       ·
       <a href="#footer">Contact</a>
     </p>

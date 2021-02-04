@@ -7,7 +7,7 @@ import Card from "react-bootstrap/Card";
 import Tilt from "react-tilt";
 import styles from '../styles.module.css'
 
-const About = () => {
+const About = (props) => {
   return (
     <div id="experience">
       <h1 className="pt-3 text-center font-details-b pb-3"></h1>
@@ -23,31 +23,31 @@ const About = () => {
                 <div>
                   <Card.Text className= "text-center" >
             <div className={styles.imageAbout}>
-                <img src="https://mk0paperlessmovn94k7.kinstacdn.com/wp-content/uploads/2019/09/o2dvsv2pnhe-683x1024.jpg" className = {styles.aboutmeImage} />
+                <img src={props.data.image} className = {styles.aboutmeImage} />
                 <div className={styles.about}>
                     <h1 className={styles.h1about} >About me</h1>
-                    <h2 className={styles.h2about}>MY name is saja</h2>
-                    <p className={styles.pabout}>loreacjfdhjfskjdbkjfdff jhfjsfdhjdsf slfhfdjvdlkvdlkfj;sczlkjfhdscjdljd</p>
+                    <h2 className={styles.h2about}>MY name is {props.data.first_name}</h2>
+                    <p className={styles.pabout}>{props.data.about_me}</p>
                 </div>
             </div>
             <section ClassName={styles.aboutBoutton}>
 
                 <div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href={props.data.linkedin} target="_blank" rel="noopener noreferrer">
                         <Button className="m-2" variant="outline-success">
                           Email
                       </Button>
                     </a>
                 </div>
                 <div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href={props.data.github} target="_blank" rel="noopener noreferrer">
                         <Button className="m-2" variant="outline-dark">
                             GitHub
                       </Button>
                     </a>
                 </div>
                 <div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href={props.data.linkedin} target="_blank" rel="noopener noreferrer">
                         <Button className="m-2" variant="outline-info">
                             LinkedIn
                       </Button>

@@ -20,8 +20,8 @@ export default () => (
 
             <ul>
                 <li><a className={styles.li} href="/">Home</a></li>
-                <li><a className={styles.li} href="#students">Our Students</a></li>
-                <li><a className={styles.li} href="#footer">Contact us</a></li>
+                <li><a className={styles.li} href="/cards">Our Students</a></li>
+                <li><a className={styles.li} href="/login">Login</a></li>
             </ul>
             </div>
         </nav>
