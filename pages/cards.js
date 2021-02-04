@@ -1,79 +1,46 @@
 import styles from '../styles.module.css'
-
-export default function Careds(props){
+import Link from 'next/link'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+export default function Careds(props) {
     return (
-       <>
-        <div className={styles.box}>
-            <link></link>
-            <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src={props.data[0].image} alt="images"></img>
-                </div>
-                    <div className={styles.details}>
-                        <h2>{props.data[0].first_name} {props.data[0].Last_name}<br/><span>Developer</span></h2>
-                    </div>
+        <>
+        <Header style={{width:"80px"}}/>
+        <div className={styles.box_cards} >
+            <div className={styles.cards_header}>
+                <h1>Our Students</h1>
             </div>
+            <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", margin: "auto", justifyContent: "center" }}>
+                {props.data.map(data => {
+                    return (
 
-                    <div className={styles.card}>
-                        <div className={styles.imgBx}>
-                            <img src={props.data[1].image} alt="images"></img>
-                        </div>
-                            <div className={styles.details}>
-                                <h2>{props.data[1].first_name} {props.data[1].Last_name}<br/><span>Developer</span></h2>
-                        </div>
-                    </div>
-{/* 
-                            <div className={styles.card}>
-                                <div className={styles.imgBx}>
-                                    <img src={props.data[2].image} alt="images"></img>
-                                </div>
-                                    <div className={styles.details}>
-                                        <h2>{props.data[2].first_name} {props.data[2].Last_name}<br/><span>Developer</span></h2>
-                                    </div>
+                        <div className={styles.card} style={{ display: "inline-block", margin: "70px" }}>
+                        <Link href="/[id].js" as = {`/${data.id}`}>
+                            <div className={styles.imgBx}>
+                                <img src={data.image} alt="images"></img>
                             </div>
-
-
-        </div>
-
-        <div className={styles.box}>
-            <div className={styles.card}>
-                <div className={styles.imgBx}>
-                    <img src={props.data[0].image} alt="images"></img>
-                </div>
-                    <div className={styles.details}>
-                        <h2>{props.data[0].first_name} {props.data[0].Last_name}<br/><span>Developer</span></h2>
-                    </div>
-            </div>
-
-                    <div className={styles.card}>
-                        <div className={styles.imgBx}>
-                            <img src={props.data[1].image} alt="images"></img>
-                        </div>
+                            </Link>
                             <div className={styles.details}>
-                                <h2>{props.data[1].first_name} {props.data[1].Last_name}<br/><span>Developer</span></h2>
+                                <h2>{data.first_name} {data.Last_name}<br /><span>Developer</span></h2>
+                            </div>
                         </div>
-                    </div>
 
-                            <div className={styles.card}>
-                                <div className={styles.imgBx}>
-                                    <img src={props.data[2].image} alt="images"></img>
-                                </div>
-                                    <div className={styles.details}>
-                                        <h2>{props.data[2].first_name} {props.data[2].Last_name}<br/><span>Developer</span></h2>
-                                    </div>
-                            </div> */}
+                    )
+                })}
 
 
+            </div>
         </div>
-    </>
-       
-        
+            <Footer />
+        </>
+
+
     );
 };
 
-export async function getServerSideProps(){
-    const res = await fetch(`http://localhost:8000/blog/`)
+export async function getServerSideProps() {
+    const res = await fetch(`https://asac-blog.herokuapp.com/blog/`)
     const data = await res.json()
-    console.log(data)
-    return {props:{data:data}}
-  }
+    
+    return { props: { data: data } }
+}
