@@ -12,9 +12,9 @@ const About = (props) => {
     <div id="experience">
       <h1 className="pt-3 text-center font-details-b pb-3"></h1>
       <Jumbotron className={styles.jumboStyle}>
-        <Container>
-          <Tilt options={{ max: 25 }}>
-            <Card style = {{ height: "400px", width : "100%", margin: "auto"}}>
+        {/* <Container> */}
+          {/* <Tilt options={{ max: 25 }}> */}
+            <Card style = {{ height: "450px", width : "95%", margin: "auto", bottom: "17px"}}>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                 
               </Card.Header>
@@ -60,8 +60,8 @@ const About = (props) => {
                 </div>
               </Card.Body>
             </Card>
-          </Tilt>
-        </Container>
+          {/* </Tilt> */}
+        {/* </Container> */}
       </Jumbotron>
     </div>
   );
