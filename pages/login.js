@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Router from 'next/router';
 import styles from '../styles.module.css'
+import Header from '../components/Header'
 
 
 const Login = () => {
@@ -37,20 +38,24 @@ const Login = () => {
       });
   }
   return (
+    <>
+      <Header />
       <div className={styles.loginDiv}>
 
       
     <form onSubmit={handleSubmit}>
         <fieldset  className={styles.fieldSet}>
-      <p className={styles.login}>Login</p>
+      <p className={styles.login}>Log in</p>
       <label className={styles.nameLable}>
           Enter Your Username
       </label>
+      <br/>
       <input className={styles.username}
         name="username"
         type="text"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        
       />
       <br>
       </br>
@@ -59,7 +64,8 @@ const Login = () => {
        <label className={styles.nameLable2}>
           Enter Your password
       </label>
-      <input
+      <br/>
+      <input className={styles.username}
         name="password"
         type="password"
         value={password}
@@ -70,11 +76,13 @@ const Login = () => {
       </br>
       <br>
       </br>
-      <input  type="submit" value="Submit" className={styles.button} />
+      <input  type="submit" value="Submit" className={styles.button}  />
       {loginError && <p style={{color: 'red'}}>{loginError}</p>}
       </fieldset>
     </form>
     </div>
+    
+    </>
   );
 };
 

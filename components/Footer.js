@@ -10,16 +10,16 @@ export default() => (
     <h3>ASAC Blog<span></span></h3>
 
     <p className={styles.footer_links}>
-      <a href="#">Home</a>
+      <a href="/">Home</a>
       ·
       
-      <a href="#">Portfolios</a>
+      <a href="/cards">Portfolios</a>
       ·
-      <a href="#">About Us</a>
+      
+      
+      <a href="/login">Log-In</a>
       ·
-      <a href="#">Sign-In</a>
-      ·
-      <a href="#">Contact</a>
+      <a href="#footer">Contact</a>
     </p>
 
     <p className={styles.footer_company_name}>LTUC company © 2021</p>

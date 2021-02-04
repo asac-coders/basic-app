@@ -137,14 +137,15 @@
 
 .footer_distributed{
 	/* background: rgba(20, 3, 66, 0.849); */
-	background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #E94639 ,#692B8F);
+	background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #030b4eea ,#050e86);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
 	padding: 50px 60px 40px;
-	overflow: hidden;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .Footer section {
@@ -248,7 +249,7 @@
 	display: block;
 	border-radius: 3px;
 	box-sizing: border-box;
-	background-color:  #1f2022;
+	background-color:  whitesmoke;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 	border: none;
 	resize: none;
@@ -256,7 +257,7 @@
 	font: inherit;
 	font-size: 14px;
 	font-weight: normal;
-	color:  #d1d2d2;
+	color:  #1f2022;
 
 	width: 400px;
 	padding: 18px;
@@ -288,8 +289,8 @@
 
 .footer_distributed form button{
 	border-radius: 3px;
-	background-color:  #33383b;
-	color: #ffffff;
+	background-color:  whitesmoke;
+	color:  #33383b;
 	border: 0;
 	padding: 15px 50px;
 	font-weight: bold;
@@ -363,8 +364,9 @@
 }
 
 .body{
-  margin-left: 3%;
-  margin-right: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+
   margin-top:0px;
  
   /* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/creative_room/v796-nunny-02c_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e7b4f945ca9a02ab4435b35d342b570a"); */
@@ -389,7 +391,7 @@
 	  background-color: white;
 	 padding: 33px;
 
-	  background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #E94639 ,#692B8F);
+	  background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #030b4eea ,#050e86);
 	  margin-bottom: 30px;
 	  text-decoration: none;
 	  
@@ -399,7 +401,7 @@
 	}
 	.logo{
 		display: inline;
-		color: #1a0444;
+		color: rgb(0, 255, 221);
 		font-weight: bold;
 		font-size: 24px;
 		
@@ -465,7 +467,7 @@
 	position: relative;
   }
   .pabout {
-	font-size: 0.6em;
+	font-size: 80%;
 	letter-spacing: 1px;
   }
   
@@ -555,7 +557,9 @@
 
   .studentProjectList {
 	  display: flex;
-	  padding: 3rem;
+    padding: 3rem;
+    width: 90%;
+    margin: auto;
   }
   
   .studentProject {
@@ -565,18 +569,34 @@
 	  height: 350px;
 	  width: 400px;
 	  min-width: 250px;
-	  padding: 1.5rem;
+    padding: 1.5rem;
+    overflow: overlay;
+    background:#030b4eea ;
+    
+  }
+  .studentProject::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  .studentProject::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .studentProject::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
   }
   .studentProject {
 	  border-radius: 16px;
-	  background:#432e45;
 	  box-shadow: -1rem 0 3rem rgb(43, 42, 42);
-	  transition: .2s;
+    transition: .2s;
+    color: whitesmoke;
   }
   
   .studentProject:hover {
 	  transform: translateY(-1rem);
-	  z-index: 1;
+    z-index: 1;
+    
   }
   
   .studentProject:hover ~.student-project {
@@ -592,21 +612,24 @@
 	  display: grid;
 	  grid-template-columns: 75px 1fr;
 	  align-items: center;
-	  margin: 3rem 0 0;
-	  color: linear-gradient(90deg,#ff8a00,#e52e71);
+    margin: 20px 0px 10px 0px;
+    padding-left: 20px;
+	  color: whitesmoke;
   }
   
   .studetnProjectH2 {
 	  margin-bottom: auto;
-	  color: linear-gradient(90deg,#ff8a00,#e52e71);
+    color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .studetnProjectH2 {
 	  font-size: 20px;
 	  margin: .25rem 0 auto;
 	  cursor: pointer;
-	  color: linear-gradient(90deg,#ff8a00,#e52e71);
-	  background: linear-gradient(90deg,#ff8a00,#e52e71);
+	  color: whitesmoke;
+	  background: whitesmoke;
 	  
 	  text-shadow: none;
 	  background-clip: text;
@@ -615,7 +638,7 @@
   }
   
   .studetnProjectH2:hover {
-	  background: linear-gradient(90deg,#ff8a00,#e52e71);
+	  
 	  
 	  text-shadow: none;
 	  background-clip: text;
@@ -623,7 +646,9 @@
 	  -webkit-text-fill-color: transparent;
   }
   .studentAvatar{
-	  display:block;
+    display:block;
+    font-size: 120%;
+    padding-right: 20px;
   }
 
 
@@ -633,6 +658,7 @@
   .focus {
   transition: transform 0.3s;
   margin-bottom: 900px;
+  
 }
 
 .focus:hover {
@@ -664,7 +690,8 @@
 
 .imgSkills{
 	width: 50px;
-	height: 50px;
+  height: 50px;
+  margin-right: 15px;
 }
 .skills{
 	/* margin: auto; */
@@ -801,6 +828,8 @@
   height: 700px;
   border-radius: 10px;
   margin-top: 2%;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 
@@ -839,51 +868,63 @@
 
 .login{
   /* text-align: center; */
-  font-family: 'Courier New', Courier, monospace;
+  
   font-size: 40px;
   color: whitesmoke;
-  margin-left: 5%;
-}
-
-.username{
   
 }
+
 
 .loginDiv{
   padding-top: 3%;
 text-align: center;
 /* margin-top: 5%; */
-background-image: url("login.png");
+/* background-image: url("login.png"); */
 width: 100%;
-height: 680px;
+height: 591px;
 background-size: cover;
+margin-top: -28px;
+background:whitesmoke;
+
 }
 
 .fieldSet{
   width: 40%;
   margin-left: 30%;
-  margin-Top: 10%;
-  height: 300px;
+  margin-Top: 7%;
+  height: 380px;
   
+  border-radius: 10px;
+  background-image:linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #030b4eea ,#050e86);;
 }
-
+.username{
+  width: 200px;
+  height:25px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
 .nameLable{
   color: whitesmoke;
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  
   
 }
 
 .nameLable2{
   color: whitesmoke;
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  
 }
 .button{
   color: rgb(8, 36, 80);
   font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
   
-
+  cursor: pointer ;
+  padding: 6px 50px 6px 50px;
+  border-radius: 10px;
+  background-color:  rgb(7, 18, 78);
+  border: 1px rgb(7, 18, 78) solid;
+  color: whitesmoke;
+  margin-top: 15px;
 }
 
