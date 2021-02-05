@@ -649,12 +649,13 @@ background:whitesmoke;
     margin-bottom: 30px;
     height: 80px;
     display: flex;
+    background-color: white;
 
 	  
 	} 
 	.header11 .nav22 ul{
 	  display: inline-block;
-    padding-left: 300px;
+    padding-left: 360px;
 
 	}
 	.header11 .nav22 ul li {
@@ -677,6 +678,17 @@ background:whitesmoke;
 
 
 }
+.rightNav{
+position:relative;
+left:510px;
+top:20px;
+}
+.rightNav a{
+  padding:5px;
+ font-size: 30px;
+ color: rgb(7, 18, 78);
+}
+
 /* /////////////logo/////////// */
 
 
