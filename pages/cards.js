@@ -8,7 +8,7 @@ export default function Careds(props) {
         <Header style={{width:"80px"}}/>
         <div className={styles.box_cards} >
             <div className={styles.cards_header}>
-                <h1>Our Students</h1>
+                <h1 >Our Students</h1>
             </div>
             <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", margin: "auto", justifyContent: "center" }}>
                 {props.data.map(data => {

@@ -129,26 +129,27 @@
 
 /*******************************************************************************************/
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 .Footer * {
-  font-family: Roboto;
+  font-family: 'Comfortaa', cursive;
 }
-
 .footer_distributed{
-	/* background: rgba(20, 3, 66, 0.849); */
-	background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #030b4eea ,#050e86);
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	font: bold 16px sans-serif;
-	text-align: left;
-	padding: 50px 60px 40px;
-  overflow: hidden;
-  border-radius: 10px;
-}
 
+  /* background: rgba(20, 3, 66, 0.849); */
+  /* background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, rgba(68, 161, 248, 0.07) 99%),linear-gradient(90deg, #717ec5 ,#0a0e2e); */
+  box-shadow: 0 1px 1px 0 rgba(8, 21, 92, 0.12);
+  background-color: #232A47;
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  /* padding: 50px 60px 40px; */
+  padding: 10px;
+  overflow: hidden;
+  /* border-radius: 10px; */
+}
 .Footer section {
+ 
   width: 100%;
   display: inline-block;
   background: #ccc;
@@ -158,196 +159,158 @@
   font-weight: 700;
   text-decoration: underline;
 }
-
-
 /* Footer left */
-
 .footer_distributed .footer_left{
-	float: left;
+  float: left;
 }
-
 /* The company logo */
-
 .footer_distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Roboto', cursive;
-	margin: 0 0 10px;
+  color:  #ffffff;
+  font: normal 36px 'Roboto', cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0 0 10px;
+  margin-left: 10px;
 }
-
 .footer_distributed h3 span{
-	color:  #5383d3;
+  color:  #5383d3;
 }
-
 /* Footer links */
-
 .footer_distributed .footer_links{
-	color:  #ffffff;
-	margin: 0 0 10px;
-	padding: 0;
+  color:  #ffffff;
+  margin: 0 0 10px;
+  /* padding: 0; */
+  
 }
-
 .footer_distributed .footer_links a{
-	display:inline-block;
-	line-height: 1.8;
-	text-decoration: none;
-	color:  inherit;
-	padding: 5px;
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+  padding: 5px;
+  margin: 5px;
     /* background-color: #440a36; */
 }
-
 .footer_distributed .footer_company_name{
-	color:  #f3f3f3f6;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+  color:  #f3f3f3f6;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px;
+  padding-left: 4%;
 }
-
 /* Footer social icons */
-
 .footer_distributed .footer_icons{
-	margin-top: 40px;
+  margin-top: 40px;
+  
 }
-
 .footer_distributed .footer_icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
-
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-
-	margin-right: 3px;
-	margin-bottom: 5px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #d5dce0;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
 }
-
 /* Footer Right */
-
 .footer_distributed .footer_right{
-	float: right;
+  float: right;
 }
-
 .footer_distributed .footer_right p{
-	display: inline-block;
-	vertical-align: top;
-	margin: 15px 42px 0 0;
-	color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 42px 0 0;
+  color: #ffffff;
 }
-
 /* The contact form */
-
 .footer_distributed form{
-	display: inline-block;
+  display: inline-block;
 }
-
 .footer_distributed form input,
 .footer_distributed form textarea{
-	display: block;
-	border-radius: 3px;
-	box-sizing: border-box;
-	background-color:  whitesmoke;
-	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-	border: none;
-	resize: none;
-
-	font: inherit;
-	font-size: 14px;
-	font-weight: normal;
-	color:  #1f2022;
-
-	width: 400px;
-	padding: 18px;
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color:  whitesmoke;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color:  #1f2022;
+  width: 400px;
+  padding: 18px;
 }
-
 .footer_distributed ::-webkit-input-placeholder {
-	color:  #bbadad;
+  color:  #bbadad;
 }
-
 .footer_distributed ::-moz-placeholder {
-	color:  #f8f8f8;
-	opacity: 1;
+  color:  #f8f8f8;
+  opacity: 1;
 }
-
 .footer_distributed :-ms-input-placeholder{
-	color:  #5c666b;
+  color:  #5c666b;
 }
-
-
 .footer_distributed form input{
-	height: 55px;
-	margin-bottom: 15px;
+  height: 55px;
+  margin-bottom: 15px;
 }
-
 .footer_distributed form textarea{
-	height: 100px;
-	margin-bottom: 20px;
+  height: 100px;
+  margin-bottom: 20px;
 }
-
 .footer_distributed form button{
-	border-radius: 3px;
-	background-color:  whitesmoke;
-	color:  #33383b;
-	border: 0;
-	padding: 15px 50px;
-	font-weight: bold;
-	float: right;
+  border-radius: 3px;
+  background-color:  whitesmoke;
+  color:  #33383b;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
 }
-
 /* If you don't want the footer to be responsive, remove these media queries */
-
 @media (max-width: 1000px) {
-
-	.footer_distributed {
-		font: bold 14px sans-serif;
-	}
-
-	.footer_distributed .footer_company_name{
-		font-size: 12px;
-	}
-
-	.footer_distributed form input,
-	.footer_distributed form textarea{
-		width: 250px;
-	}
-
-	.footer_distributed form button{
-		padding: 10px 35px;
-	}
-
+  .footer_distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer_distributed .footer_company_name{
+    font-size: 12px;
+  }
+  .footer_distributed form input,
+  .footer_distributed form textarea{
+    width: 250px;
+  }
+  .footer_distributed form button{
+    padding: 10px 35px;
+  }
 }
-
 @media (max-width: 800px) {
-
-	.footer_distributed{
-		padding: 30px;
-	}
-
-	.footer_distributed .footer_left,
-	.footer_distributed .footer_right{
-		float: none;
-		max-width: 300px;
-		margin: 0 auto;
-	}
-
-	.footer_distributed .footer_left{
-		margin-bottom: 40px;
-	}
-
-	.footer_distributed form{
-		margin-top: 30px;
-	}
-
-	.footer_distributed form{
-		display: block;
-	}
-
-	.footer_distributed form button{
-		float: none;
-	}
+  .footer_distributed{
+    padding: 30px;
+  }
+  .footer_distributed .footer_left,
+  .footer_distributed .footer_right{
+    float: none;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .footer_distributed .footer_left{
+    margin-bottom: 40px;
+  }
+  .footer_distributed form{
+    margin-top: 30px;
+  }
+  .footer_distributed form{
+    display: block;
+  }
+  .footer_distributed form button{
+    float: none;
+  }
 }
 
 
@@ -360,13 +323,15 @@
   background-image: url("bG.gif");
   height: 700px;
   border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%; 
   
 }
 
 .body{
-  padding-left: 5%;
-  padding-right: 5%;
-
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  font-family: 'Comfortaa', cursive;
   margin-top:0px;
  
   /* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/creative_room/v796-nunny-02c_3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e7b4f945ca9a02ab4435b35d342b570a"); */
@@ -379,6 +344,10 @@
   background-color: #aadde0;
   border-radius: 10px;
   height: 515px;
+  margin-left: 5%;
+  margin-right: 5%; 
+  height: 650px;
+  
   }
   .students h1{
     position: relative;
@@ -386,88 +355,7 @@
     text-align: center;
     margin-top: 30px;
   }
-  /* .nav22 { */
-	  /* line-height: 1.5; */
-	  /* background-color: white;
-	 padding: 33px;
-    background-image: linear-gradient(291deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%,
-    rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%,rgba(189, 189, 189, 0.04) 66.6%,
-     rgba(189, 189, 189, 0.04) 99.89999999999999%),linear-gradient(126deg, rgba(126, 126, 126, 0.05) 0%,
-      rgba(126, 126, 126, 0.05) 33.3%,rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%
-      ,rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.89999999999999%),linear-gradient(59deg,
-       rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%,rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%,
-       rgba(199, 199, 199, 0.08) 66.6%,
-     rgba(199, 199, 199, 0.08) 99.89999999999999%),linear-gradient(368deg, rgba(82, 82, 82, 0.06) 0%,
-      rgba(82, 82, 82, 0.06) 33.3%,rgba(179, 179, 179, 0.06) 33.3%, 
-     rgba(179, 179, 179, 0.06) 66.6%,rgba(212, 212, 212, 0.06) 66.6%, 
-     rgba(212, 212, 212, 0.06) 99.89999999999999%),linear-gradient(77deg, rgba(70, 70, 70, 0.02) 0%,
-      rgba(70, 70, 70, 0.02) 33.3%,rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%,
-      rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.89999999999999%),linear-gradient(83deg, rgba(129, 129, 129, 0.09) 0%,
-       rgba(129, 129, 129, 0.09) 33.3%,rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%,rgba(153, 153, 153, 0.09) 66.6%,
-        rgba(153, 153, 153, 0.09) 99.89999999999999%),linear-gradient(108deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%,
-        rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%,rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.89999999999999%),
-        linear-gradient(272deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%,rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%,
-        rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.89999999999999%),linear-gradient(148deg, rgba(247, 247, 247, 0.07) 0%, 
-        rgba(247, 247, 247, 0.07) 33.3%,rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%,rgba(208, 208, 208, 0.07) 66.6%, 
-        rgba(208, 208, 208, 0.07) 99%),linear-gradient(90deg, #030b4eea ,#050e86);
-	  margin-bottom: 30px;
-	  text-decoration: none;
-	  
-	}
-	.navlinks{
-		display: inline;
-	} */
-	/* .logo{
-		display: inline;
-		color: rgb(0, 255, 221);
-		font-weight: bold;
-		font-size: 24px;
-		
-	}
-	.logoBlog{
-		color: #ffffff;
   
-	} */
-	/* .nav22 img {
-		margin-left: 30px;
-		padding: 10px;
-	}  */
-
-	/* .header11 .nav22 ul{
-	  display: inline;
-	  text-decoration: none;
-
-	}
-	.header11 .nav22 ul li {
-		list-style: none !important;
-	  list-style-type: none !important;
-	  text-decoration: none;
-		display: inline;
-	} */
-	/* .header11 .nav22 ul li a{
-	  
-	  color:  rgb(255, 255, 255);
-	  padding-left: 15px;
-	  padding-right: 10px;
-	  font-size: 20px;
-	  
-	 font-family: Arial, Helvetica, sans-serif
-	  
-	} */
-	/* .header11 .nav22 h2{
-	  
-	  display: inline;
-	  font-family: 'Kaushan Script', cursive;
-	  margin-left: 10px;
-	  font-size: xx-large;
-	  padding: 20px;
-	}  */
-
-
-/* #logo{
-	margin-left: 35px !important;
-} */
-
 
 /* ////////////////////////////////////about/////////////////////////// */
 
@@ -693,6 +581,11 @@
   width: 3em;
 }
 
+.font{
+  color: #232A47;
+  padding-top: 3%;
+}
+
 .fontdetails {
   font-size: 3em;
   font-weight: 500;
@@ -742,6 +635,7 @@
   }
  
   .card{
+    top: 40px;
     z-index: 10;
     position: relative;
     width: 250px;
@@ -834,7 +728,7 @@
 .seeMore{
   position: relative;
   left: 43%;
-  top: 7px;
+  top: 70px;
   font-size: 30px;
   text-decoration:none;
   padding: 6px 50px 6px 50px;
@@ -848,6 +742,8 @@
   height: 700px;
   border-radius: 10px;
   margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;  
 }
 
 .mission{
@@ -857,6 +753,8 @@
   margin-top: 2%;
   margin-bottom: 30px;
   border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%; 
 }
 
 
@@ -871,6 +769,7 @@
   margin: 0 auto;
   border-radius: 10px;
   box-shadow:0 2px 10px rgba(0,0,0,.2);
+  margin-bottom: 3%;
 }
 
 .cards_header{
@@ -885,11 +784,11 @@
 }
 .cards_header h1{
   margin: 0;
-    color: goldenrod;
+    color: #3ebffa;
     /* position: relative; */
     /* left: 42%; */
     
-  
+    font-family: 'Comfortaa', cursive;
 
 }
 
@@ -996,10 +895,11 @@ background:whitesmoke;
 
 
 #pelogo{
+  
   display: inline-block;
   width: 200px;
   height: 8vh;
-  background: linear-gradient(-45deg, #34324b 0%, #161222 100%);
+  background: linear-gradient(-45deg, #34324b 0%, #2d2250 100%);
   font-family: Trebuchet MS, sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -1012,5 +912,8 @@ background:whitesmoke;
   margin-left: 12px;
 }
 
+.cardStudent{
+  width: 100px;
+}
 
 

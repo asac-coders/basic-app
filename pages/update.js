@@ -63,9 +63,9 @@ export default function personalPage(props) {
 
 
                 <form onSubmit={handleSubmit}>
-                    <fieldset className={styles.fieldSet}>
+                    <fieldset className={styles.fieldSet} style ={{height : 'auto', marginTop : '-7px'}} >
                         <p className={styles.login}>Personal Info</p>
-                        <label className={styles.nameLable}>
+                        <label className={styles.nameLable}  style ={{display : 'block'}}>
                                 First Name
                         </label>
                         
@@ -80,7 +80,7 @@ export default function personalPage(props) {
                         </br>
                         <br>
                         </br>
-                        <label className={styles.nameLable2}>
+                        <label className={styles.nameLable2}  style ={{display : 'block'}}>
                             Last Name
                         </label>
                         
@@ -94,29 +94,32 @@ export default function personalPage(props) {
                         </br>
                         <br>
                         </br>
-                        <label className={styles.nameLable2}>
+                        <label className={styles.nameLable2}   style ={{display : 'block'}}>
                             Image
+                            
                         </label>
                         
                         <input required className={styles.username}
                             name="image"
-                            type="text"
+                            type="url"
                             value={image}
                             onChange={(e) => setImage(e.target.value)}
+                          
                         />
                         <br>
                         </br>
                         <br>
                         </br>
-                        <label className={styles.nameLable2}>
+                        <label className={styles.nameLable2}  style ={{display : 'block'}}>
                             About me
                         </label>
                         
-                        <input required className={styles.username}
+                        <input required className={styles.username} 
                             name="about_me"
-                            type="text"
+                            type="textarea"
                             value={about_me}
                             onChange={(e) => setAboutMe(e.target.value)}
+                            
                         />
                         
 
@@ -130,10 +133,10 @@ export default function personalPage(props) {
                 </form>
 
             </div>
-            <div id="footer">
+            {/* <div id="footer">
                 <Footer className={styles.Footer}></Footer>
             </div>
-
+ */}
 
 
         </div>
