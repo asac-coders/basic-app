@@ -80,7 +80,7 @@ const SkillsIco = (props) => {
     {/* <img src = "../icones/express.png"  className= {styles.imgSkills} /> */}
 
       <a className="text-dark text-decoration-none" href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
-      Express
+     <strong>EXPRESS </strong> Express
       </a>
     </span>)
   }
