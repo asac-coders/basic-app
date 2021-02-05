@@ -17,6 +17,7 @@ export default function personalPage(props) {
 
     function handleSubmit(e) {
         e.preventDefault();
+        console.log(localStorage.getItem('Token'))
         const requestOptions ={
             method: 'PUT',
             headers: {

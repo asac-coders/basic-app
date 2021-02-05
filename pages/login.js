@@ -38,6 +38,7 @@ const Login = () => {
         if (data && data.token) {
           //set cookie
           localStorage.setItem("Token",data.token);
+          localStorage.setItem("student_id",email);
           router.push('/personalPage')
           // cookie.set('token', data.token, {expires: 2});
           // Router.push('/');

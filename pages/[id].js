@@ -3,16 +3,48 @@ import About from '../components/about'
 import styles from '../styles.module.css'
 // import Image from 'next/image'
 import Header from '../components/Header'
+import Header2 from '../components/personalPageHeader'
+import Footer2 from '../components/personalPageFooter'
 import Projects from '../components/project'
 // import Skills from '../components/skills'
 import SkillsIco from '../components/skills-icon'
 
+
 import Image from 'next/image'
+function header(){
+  var header = (<h1></h1>)
+
+  var local = localStorage.getItem('Token');
+  if (local != null){
+    header = (<Header2/>)
+
+  }
+  else {
+    header = (<Header/>)
+  }
+  return(
+    header
+  )
+}
+function footer(){
+  var footer = (<h1></h1>)
+  var local = localStorage.getItem('Token');
+  if (local != null){
+    footer = (<Footer2/>)
+  }
+  else {
+    footer = (<Footer/>)
+  }
+  return(
+    footer
+  )
+}
 function Details(props) {
+
   return (
 
 <div className = {styles.detailsPageDiv}>
-<Header/>
+{header()}
 <About data={props.data[0]}/>
 
 <Projects data={props.data[1]}/>
@@ -21,7 +53,7 @@ function Details(props) {
 <br></br>
 
 <SkillsIco data={props.data[2]}/>
-<Footer/>
+{footer()}
 </div>
 
 
