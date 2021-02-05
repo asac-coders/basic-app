@@ -58,7 +58,6 @@ export default () => (
                     <li><a className={styles.li} href="/login"><RiLoginBoxFill className={styles.sa} /></a></li>
                 </ul>
             </div>
-            <span class="cd-3d-nav__marker cd-3d-nav__marker--col-2" aria-hidden="true" style={{width: "303.837px",left:" 303.837px"}}></span>
         </nav>
     </header>
 
