@@ -9,9 +9,8 @@ import { FiLogIn } from "@react-icons/all-files/fi/FiLogIn";
 import { ImHome } from "@react-icons/all-files/im/ImHome";
 import { HiUserGroup } from "@react-icons/all-files/hi/HiUserGroup";
 import { RiLoginBoxFill } from "@react-icons/all-files/ri/RiLoginBoxFill";
-import { GrGithub } from "@react-icons/all-files/gr/GrGithub";
 import { GrTwitter } from "@react-icons/all-files/gr/GrTwitter";
-
+import { SiGithub } from "@react-icons/all-files/si/SiGithub";
 
 
 
@@ -63,7 +62,7 @@ export default () => (
                 </ul>
             </div>
             <div className = {styles.rightNav} >
-            <a className={styles.sa} href="https://github.com/asac-coders"><GrGithub className={styles.sa}/> </a>
+            <a className={styles.sa} href="https://github.com/asac-coders"><SiGithub className={styles.sa}/></a>
             <a className={styles.li} href="#"><GrTwitter className={styles.sa}/> </a>
         
             </div>
