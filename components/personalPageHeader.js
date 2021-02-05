@@ -24,10 +24,10 @@ export default () => (
             <div className={styles.navlinks}>
 
                 <ul>
-                    <li><a className={styles.li}  className={styles.sa} href="/personalPage"> <ImHome className={styles.sa} /></a></li>
-                    <li><a className={styles.li} className={styles.sa} href="/cardsAfterLogin"><HiUserGroup className={styles.sa} /></a></li>
-                    <li><a className={styles.li}  className={styles.sa} onClick={logout} href="/"><RiLogoutBoxFill/></a></li>
-                    <li><a className={styles.li}  className={styles.sa} href="/update"><MdUpdate/></a></li>
+                    <li><a   className={styles.sa} href="/personalPage"> <ImHome /></a></li>
+                    <li><a   className={styles.sa} href="/cardsAfterLogin"><HiUserGroup /></a></li>
+                    <li><a   className={styles.sa} onClick={logout} href="/"><RiLogoutBoxFill/></a></li>
+                    <li><a   className={styles.sa} href="/update"><MdUpdate/></a></li>
                 </ul>
 
             </div>

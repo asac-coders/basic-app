@@ -1,54 +1,53 @@
 import Link from 'next/link'
-import styles from '../styles.module.css'
+import styles from '../styles.module.css';
+import { HiOutlineLocationMarker } from "@react-icons/all-files/hi/HiOutlineLocationMarker";
+import { HiOutlinePhone } from "@react-icons/all-files/hi/HiOutlinePhone";
+import { BsEnvelope } from "@react-icons/all-files/bs/BsEnvelope";
+
 export default() => (
-
-   
+      
   <footer className={styles.footer_distributed}>
-
   <div className={styles.footer_left}>
-
-    <h3>ASAC Blog<span></span></h3>
-
-    <p className={styles.footer_links}>
-      <a href="/personalPage">Home</a>
-      ·
-      
-      <a href="/cardsAfterLogin">Portfolios</a>
-      ·
-      
-      
-      
-      
-      <a href="#footer">Contact</a>
-    </p>
-
-    <p className={styles.footer_company_name}>LTUC company © 2021</p>
-
-    <div className={styles.footer_icons}>
-
-      {/* <a href="#"><i className={styles.fa}  className={styles.fa_facebook} ></i></a>
-      <a href="#"><i className={styles.fa_twitter} className={styles.fa}></i></a>
-      <a href="#"><i className={styles.fa_linkedin} className={styles.fa}></i></a>
-      <a href="#"><i  className={styles.fa_github} className={styles.fa}></i></a> */}
-
-    </div>
-
+  <div id={styles.logocontainer}>
+              <div id={styles.pelogo}> ASAC blog</div>
+          </div>
+      <p className={styles.footer_links}>
+          <a href="/personalPage" className={styles.link}>Home</a>
+          
+          <a href="/cardsAfterLogin">our student</a>
+      </p>
+      <p className={styles.footer_company_name}>ASAC blog 2021 ®</p>
   </div>
 
+  <div className={styles.footer_center}>
+      <div>
+      
+          <p> <HiOutlineLocationMarker className = {styles.i}/> Amman, Jordan</p>
+      </div>
+      <div>
+   
+          <p><HiOutlinePhone  className = {styles.i}/>+9626 400 0700</p>
+      </div>
+      <div>
+       
+          <p><a href="mailto:asacBlog@gmail.com">  <BsEnvelope  className = {styles.i} style={{fontSize: "17px",
+    "lineHeight": "38px"}}/> asacBlog@gmail.com</a></p>
+      </div>
+  </div>
+  
   <div className={styles.footer_right}>
-
-    <p>Contact Us</p>
-
-    <form action="#" method="post">
-
-      <input type="text" name="email" placeholder="Email"/>
-      <textarea name="message" placeholder="Message"></textarea>
-      <button>Send</button>
-
-    </form>
-
+      <p className={styles.footer_company_about} style={{fontSize: "20px", color:"whiteSmoke"}}>
+          <span style={{fontSize: "20px", color:" #3ebffa"}}>About The Website</span>
+          A well-designed website that has some portfolios of students and access to their projects with brief inspiring articles for the new students.
+      </p>
+ 
   </div>
+   
 
-</footer>
+</footer>   
+      
+      
+      
+
     )
 
