@@ -1,14 +1,14 @@
 import styles from '../styles.module.css'
 import Link from 'next/link'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../components/personalPageHeader'
+import Footer from '../components/personalPageFooter'
 export default function Careds(props) {
     return (
         <>
         <Header style={{width:"80px"}}/>
         <div className={styles.box_cards} >
             <div className={styles.cards_header}>
-                <h1 >Our Students</h1>
+                <h1>Our Students</h1>
             </div>
             <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", margin: "auto", justifyContent: "center" }}>
                 {props.data.map(data => {
