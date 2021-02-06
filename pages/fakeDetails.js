@@ -28,6 +28,18 @@ import {DiGit } from "@react-icons/all-files/di/DiGit";
 import {SiPostgresql } from "@react-icons/all-files/si/SiPostgresql";
 import {IoLogoVercel } from "@react-icons/all-files/io5/IoLogoVercel";
 
+function name(){
+  return(JSON.parse(localStorage.getItem('first_name')))
+}
+
+function images(){
+  return(
+    JSON.parse(localStorage.getItem('image'))
+  )
+}
+function about(){
+  return(JSON.parse(localStorage.getItem('about_me')))
+}
 const About = (props) => {
   return (
     <div id="experience">
@@ -45,11 +57,11 @@ const About = (props) => {
                 <div>
                   <Card.Text className= "text-center" >
             <div className={styles.imageAbout}>
-                <img src={JSON.parse(localStorage.getItem('image'))} className = {styles.aboutmeImage} />
+                <img src="https://ca.slack-edge.com/TNGRRLUMA-U019A6Z78HG-a9ee7fedbafe-512" className = {styles.aboutmeImage} />
                 <div className={styles.about}>
                     <h1 className={styles.h1about} >About me</h1>
-                    <h2 className={styles.h2about}>MY name is {JSON.parse(localStorage.getItem('first_name'))}</h2>
-                    <p className={styles.pabout}>{JSON.parse(localStorage.getItem('about_me'))}</p>
+                    <h2 className={styles.h2about}>MY name is Hadi</h2>
+                    <p className={styles.pabout}>Test</p>
                 </div>
             </div>
             <section ClassName={styles.aboutBoutton}>
