@@ -1,4 +1,4 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 /**************************** footer file ************************************************/
 
 .footer_distributed{
@@ -109,8 +109,10 @@
   background-image: url("bG.gif");
   height: 700px;
   border-radius: 10px;
-  margin-left: 5%;
-  margin-right: 5%; 
+  /* margin-left: 5%;
+  margin-right: 5%;  */
+  width: 100%;
+  background-size:cover ;
   
 }
 
@@ -130,10 +132,11 @@
   background-color: #aadde0;
   border-radius: 10px;
   height: 515px;
-  margin-left: 5%;
-  margin-right: 5%; 
+  /* margin-left: 5%;
+  margin-right: 5%;  */
   height: 650px;
-  
+  width: 100%;
+  background-size:cover ;
   }
   .students h1{
     position: relative;
@@ -528,8 +531,10 @@
   height: 700px;
   border-radius: 10px;
   margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;  
+  /* margin-left: 5%;
+  margin-right: 5%;   */
+  width: 100%;
+  background-size:cover ;
 }
 
 .mission{
@@ -539,8 +544,10 @@
   margin-top: 2%;
   margin-bottom: 30px;
   border-radius: 10px;
-  margin-left: 5%;
-  margin-right: 5%; 
+  /* margin-left: 5%;
+  margin-right: 5%;  */
+  width: 100%;
+  background-size:cover ;
 }
 
 
@@ -655,7 +662,7 @@ background:whitesmoke;
 	} 
 	.header11 .nav22 ul{
 	  display: inline-block;
-    padding-left: 360px;
+    padding-left: 500px;
 
 	}
 	.header11 .nav22 ul li {
@@ -680,7 +687,7 @@ background:whitesmoke;
 }
 .rightNav{
 position:relative;
-left:510px;
+left:550px;
 top:20px;
 }
 .rightNav a{
@@ -695,11 +702,12 @@ top:20px;
 #pelogo{
   
   display: inline-block;
-  width: 200px;
+  width: 10vh;
   height: 8vh;
   background: linear-gradient(-45deg, #34324b 0%, #1f1a30 100%);
   font-family: Trebuchet MS, sans-serif;
   font-size: 30px;
+  border-radius: 3px;
   font-weight: bold;
   color: #3ebffa;
   text-align: center;
