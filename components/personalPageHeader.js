@@ -18,7 +18,7 @@ export default () => (
     <header className={styles.header11} >
         <nav className={styles.nav22}>
             <div id={styles.logocontainer}>
-                <div id={styles.pelogo}> ASAC blog</div>
+            <img id={styles.pelogo} src="./logo_size_invert.jpg"/>
             </div>
 
 

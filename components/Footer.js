@@ -10,7 +10,7 @@ export default() => (
   <footer className={styles.footer_distributed}>
     <div className={styles.footer_left}>
     <div id={styles.logocontainer}>
-                <div id={styles.pelogo}> ASAC blog</div>
+                <div > <img id={styles.pelogo} src="./logo_size_invert.jpg"/></div>
             </div>
         <p className={styles.footer_links}>
             <a href="/" className={styles.link}>Home</a>

@@ -50,7 +50,8 @@ export default () => (
     <header className={styles.header11} >
         <nav className={styles.nav22}>
             <div id={styles.logocontainer}>
-                <div id={styles.pelogo}> ASAC blog</div>
+                
+                <img id={styles.pelogo} src="./logo_size_invert.jpg"/>
             </div>
 
 
@@ -63,7 +64,7 @@ export default () => (
                 </ul>
             </div>
             <div className = {styles.rightNav} >
-            <a className={styles.sa} href="https://github.com/asac-coders"><GrGithub className={styles.sa}/> </a>
+            <a className={styles.sa} href="https://github.com/asac-coders"><GrGithub className={styles.sa}/></a>
             <a className={styles.li} href="#"><GrTwitter className={styles.sa}/> </a>
         
             </div>

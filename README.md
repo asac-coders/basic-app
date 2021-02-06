@@ -1,21 +1,24 @@
-# Basic CSS example
+# Welcome to our ASAC-Blog Project  ^.^
 
-Next.js has built-in support for [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support#adding-component-level-css) allowing you to write scoped CSS by automatically creating a unique class name. CSS Module files can be imported anywhere in your application and you don't have to worry about collisions.
+### Our team members :
+- Saja Ismael 
+- Ahmad Al-Mohammad
+- Ayah Abu-rashed
+- Diana Al-Shafie 
 
-## Deploy your own
+## What is ASAC Blog ??
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+> A well-designed website that has some portfolios of students and access to their projects with brief inspiring articles for the new students.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/basic-css&project-name=basic-css&repository-name=basic-css)
+## problem Domain 
 
-## How to use
+ASAC is an amazing institution, and has  already graduated more than 99 creative  students so far..Imagine having a place that has all these students’ works and projects ^.^ and communicate with them 
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Wireframe 
 
-```bash
-npx create-next-app --example basic-css basic-css-app
-# or
-yarn create next-app --example basic-css basic-css-app
-```
+[click here](https://drive.google.com/file/d/1inRMa1eO61nJRFIb2fMEnAzMgSuPnxkc/view?usp=sharing)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## User Stories
+- as a user i will be able to sign in in the website and to create my own porfolio 
+- as a user i want to see other students porfolios 
+- as a user i would like to add an article or brief summary about my Project or my recommendations 
